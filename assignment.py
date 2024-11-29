@@ -13,4 +13,6 @@ if __name__ == "__main__":
 
         iterations = int(a)
         pi = calculate_pi(iterations)
-        print(f"{iterations} iterations:{pi:.10f}")
+
+
+        print(f"{pi:.5f}")
