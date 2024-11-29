@@ -8,6 +8,8 @@ if __name__ == "__main__":
         a = input(" ")
         
         if not a.isdigit() or int(a) < 1:
+
+            
             print("Error put in a positive number no negatives or decimals")  #This is the test case for positive numbers for this asignment
             continue
 
